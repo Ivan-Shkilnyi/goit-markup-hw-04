@@ -119,10 +119,12 @@ p {
 /* #endregion header */
 
 /* #region baner */
+
 .section-baner {
   padding-bottom: 188px;
   height: 600px;
   background-color: #2e2f42;
+  background-image: linear-gradient(to top, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/images/people-office.jpg");
 }
 
 .section-baner {
@@ -182,11 +184,34 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+
+}
+
+.iconbox-principles {
+  display: flex;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  padding: 24px 100px;
+  margin-bottom: 8px;
+  background-color: #f4f4fd;
 }
 
 .principles-list {
   gap: 24px;
   display: flex;
+}
+
+.principles-icon {
+  width: 64;
+  height: 64;
+
+
+}
+
+.social-link-box {
+  justify-content: space-between
 }
 
 .visually-hidden {
@@ -277,6 +302,14 @@ p {
 .team-text {
   text-align: center;
 }
+
+.social-link {}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+}
+
 
 /* #endregion our team */
 
