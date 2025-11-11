@@ -128,7 +128,7 @@ p {
   background-position: center;
   background-size: cover;
   background-color: #2e2f42;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/images/people-office.jpg");
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office.jpg");
 }
 
 .section-baner {
@@ -321,7 +321,7 @@ p {
   gap: 24px;
 }
 
-.ocial-link-item {
+.social-link-item {
   width: 40px;
   height: 40px;
 }
