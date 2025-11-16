@@ -408,19 +408,66 @@
     <div class="modal">
       <div class="close-button"></div>
       <p>Leave your contacts and we will call you back</p>
-      <div class="form-field">
-        <div class="form-name"></div>
-        <div class="form-phone"></div>
-        <div class="form-email"></div>
-        <div class="form-textarea"></div>
-        <div class="form-checkbox"></div>
-        <div class="button-submit"></div>
-      </div>
+
+      <form>
+
+        <div class="form-field-box">
+          <label class="label-field" for="username">Name</label>
+          <div class="input-field">
+            <input class="text-field" type="text" id="username" name="username">
+            <svg class="input-icon" width="24" height="24">
+              <use href="./images/sprite.svg#icon-user"></use>
+            </svg>
+          </div>
+        </div>
+
+        <div class="form-field-box">
+          <label class="label-field" for="usertel">Phone</label>
+          <div class="input-field">
+            <input class="text-field" type="tel" id="usertel" name="usertel">
+            <svg class="input-icon" width="24" height="24">
+              <use href="./images/sprite.svg#icon-user"></use>
+            </svg>
+          </div>
+        </div>
+
+        <div class="form-field-box">
+          <label class="label-field" for="useremail">Email</label>
+          <div class="input-field">
+            <input class="text-field" type="email" id="useremail" name="useremail">
+            <svg class="input-icon" width="24" height="24">
+              <use href="./images/sprite.svg#icon-user"></use>
+            </svg>
+          </div>
+        </div>
+
+        <div class="form-field-box">
+          <label class="label-field" for="comment">Comment</label>
+          <textarea class="comment" name="comment" id="comment" placeholder="Text input"></textarea>
+        </div>
+
+        <div class="form-field-box">
+          <input class="accept-checkbox visually-hidden" type="checkbox" id="accept" name="accept" value="true">
+          <label for="accept" class="accept-label">
+            <span class="custom-checkbox">
+              <svg width="10" height="10">
+                <use href="./images/sprite.svg#icon-icon"></use>
+              </svg>
+            </span>
+            I accept the terms and conditions of the Privacy Policy
+            <a href="#" class="accent policy-link">
+              Privacy Policy
+            </a>
+          </label>
+        </div>
+
+      </form>
+
+      <button class="button-primary button-accent" type="submit">Send</button>
+
     </div>
+
   </div>
-
-
-
 
   <!-- #endregion modal -->
 </body>

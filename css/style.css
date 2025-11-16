@@ -580,23 +580,14 @@ p {
 
 .close-button {}
 
-.form-field {}
+.form-field-box {}
 
-.form-name {}
+.label-field {}
 
-.form-phone {}
+.input-field {}
 
-.form-email {}
+.text-field {}
 
-.form-textarea {}
-
-.form-checkbox {}
-
-.button-submit {}
-
-
-
-
-
+.input-icon {}
 
 /* #endregion modal */
